@@ -1,0 +1,151 @@
+body {
+    background-color: #D0F0C0;
+    margin: 0;
+    overflow: overlay;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;               
+}
+
+body::-webkit-scrollbar-track {
+    background: #00f2ff00;        
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(61, 59, 59, 0.725);   
+    border-radius: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+header div {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+header img {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+header img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+header h1 {
+    color: #473e32;
+    font-size: 130px;
+    margin: 0;
+}
+
+header h2 {
+    color: #63584a;
+    font-size: 50px;
+    margin-top: 13px;
+}
+
+main {
+    width: 100%;
+    background-color: #302423;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 75px;
+}
+
+hr {
+    margin-right: 10%;
+    margin-left: 10%;
+    border-color: #302423;
+}
+
+section div {
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+section h3 {
+    font-family: 'Acme', Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #fff;
+    margin: 0;
+}
+
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #e8e8e8;
+}
+
+section img {
+    border-radius: 30px;
+    max-width:350px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    background-color: #121212;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+footer h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #e8e8e8;
+    margin: 0;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #d4d4d4;
+    margin: 3px;
+}
+
+footer li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #d4d4d4;
+    margin: 3px;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666633;
+    margin: 3px;
+}
+
+footer img {
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
+/*#D0F0C0 #CCFFCC #666633 #63584a #473e32 #302423*/
